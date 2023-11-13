@@ -1,0 +1,131 @@
+/* *{
+    margin:0;
+    padding:0; */
+    /* font-family:'Courier New', Courier, monospace;
+    color:white; */
+/* } */
+/* .navbar{
+    color:white;
+    background-color:black;
+    height:30px;
+    text-align:left;
+}
+body{
+    background-color:khaki;
+}
+ul,li,a{
+    display:inline;
+    color:white;
+    margin:10px;
+    font-size:20px;
+    text-decoration:None;
+}
+li a{
+    margin-top:10px;
+}
+
+h1{
+    color:black;
+    text-align:center;
+    margin-top:5px;
+    font-size:50px;
+    text-transform:capitalize;
+}
+.picture{
+    background-image:url( "manure.jpg" );
+    background-size:cover;
+    text-transform:capitalize;
+    text-align:center;
+    font-size:1rem;
+}
+.p{
+   margin-top:10px;
+}
+h3{
+margin-top:650px;
+color:black;
+}
+.addfirst{
+    background-color:green;
+    font-size:12px;
+    width:100px;
+}
+.sign page li a{
+    text-align:right;
+} */
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-image:url("organic1.png");
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-left:20px;
+    padding-right:20px;
+    box-sizing:border-box;
+}
+.header{
+    height:15%;
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    position:relative; 
+}
+ .logo{
+    width:200px;
+    cursor:pointer;
+} 
+.navbar{
+    text-align:center;
+    flex:1;
+}
+.navbar a{
+    padding:7px 20px;
+    text-decoration:none;
+    color:whitesmoke;
+    margin-left:20px;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:10px;
+}
+.btn{
+    cursor:pointer;
+    color:red;
+    font-size:20px;
+    letter-spacing:2px;
+    padding:10px 30px;
+    border:2px solid green;
+    background:transparent;
+    text-decoration:none;
+    text-align:center;
+    font-weight:bold;
+    margin:40px 7px;
+}
+.btn:hover{
+    color:#000;
+    background-color:#fff;
+}
+.btn a:visited{
+    background-color:#fff;
+    color:#cc0052; 
+}
+.btn a:hover{
+    color:#000;
+}
+.btn a:link{
+    text-decoration:none;
+}
+.content{
+    text-align:center;
+    margin-top:12%;
+}
+.content h1{
+    font-size:80px;
+    color:white;
+}
+
+
